@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Sections</title>
+    <style>
+        body {
+            background-image: url(background.jpg);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .section {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            width: 150px;
+           border-color: solid black;
+           box-shadow: 5px 5px 3px 4px;
+           
+            
+        }
+        .section img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            border-color: black;
+           
+        }
+        img:hover{
+            transform:scale(1.2)
+        }
+       h2:hover{
+        transform: scale(1.1);
+       }
+       h2{
+        text-decoration: underline;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <img src="img1.jpg" alt="Home">
+            <h2>Home</h2>
+        </div>
+        <div class="section">
+            <img src="about.png" alt="About">
+            <h2>About</h2>
+        </div>
+        <div class="section">
+            <img src="gallery.jpg" alt="Gallery">
+            <h2>Gallery</h2>
+        </div>
+        <div class="section">
+            <img src="contact.webp" alt="Contact">
+            <h2>Contact</h2>
+        </div>
+    </div>
+</body>
+</html>
